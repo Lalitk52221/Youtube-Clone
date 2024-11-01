@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Lalitk52221/Youtube-Clone.git/static/css/main.30694029.css",
+    "main.js": "/Lalitk52221/Youtube-Clone.git/static/js/main.47ea5c3f.js",
+    "static/js/453.79faa093.chunk.js": "/Lalitk52221/Youtube-Clone.git/static/js/453.79faa093.chunk.js",
+    "index.html": "/Lalitk52221/Youtube-Clone.git/index.html",
+    "main.30694029.css.map": "/Lalitk52221/Youtube-Clone.git/static/css/main.30694029.css.map",
+    "main.47ea5c3f.js.map": "/Lalitk52221/Youtube-Clone.git/static/js/main.47ea5c3f.js.map",
+    "453.79faa093.chunk.js.map": "/Lalitk52221/Youtube-Clone.git/static/js/453.79faa093.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30694029.css",
+    "static/js/main.47ea5c3f.js"
+  ]
+}
