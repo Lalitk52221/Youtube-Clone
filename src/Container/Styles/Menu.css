@@ -1,0 +1,59 @@
+.menu-container {
+  height: 100vh;
+  width: 15%;
+  left: 0;
+  background: rgb(42, 42, 42);
+  font-size: 15px;
+  position: fixed;
+  overflow-y: scroll;
+  scrollbar-color: gray transparent;
+  scrollbar-width: thin;
+  font-size: 20px;
+}
+.menu-container span{
+    font-size: 15px;
+}
+
+.main,
+.history-you,
+.log-in,
+.explore,
+.more-from-youtube {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.437);
+}
+.home,
+.shorts,
+.subscription,
+.you,
+.history,
+.explore-data,
+.youtube-kids,
+.youtube-music,
+.youtube-premium {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.more-from-youtube img {
+  width: 20px;
+}
+.small-menu{
+    width: 5%;
+}
+.small-menu span{
+    display: none;
+}
+.small-menu .sign-in{
+    display: none;
+}
+
+@media (max-width:768px){
+   span, .small-menu .sign-in{
+    display: none;
+  }
+}
