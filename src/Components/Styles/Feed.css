@@ -1,0 +1,35 @@
+.feed {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-column-gap: 10px;
+  grid-row-gap: 30px;
+  margin-top: 15px;
+}
+.video-card {
+  width: 280px;
+  margin-bottom: 20px;
+  
+}
+.video-card .thumbnail {
+  width: 100%;
+  height: 150px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.video-card h2 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.video-card h3 {
+  font-size: 14px;
+  color: gray;
+  font-weight: 400;
+}
+.video-card p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.large-container .video-card{
+    width: 260px;
+}
