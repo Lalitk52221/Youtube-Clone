@@ -39,7 +39,6 @@ const Menu = ({menu}) => {
       <div className="explore">
         {exploreData.map((data,i) => (
           <div className="explore-data" key={i}>
-            {/* {data.icon} <span>{data.name}</span>  */}
             {React.createElement(data.icon)} <span>{data.name}</span> 
           </div>
         ))}

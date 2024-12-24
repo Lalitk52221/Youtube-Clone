@@ -1,12 +1,11 @@
 .header {
   width: 100%;
-  height: 60px;
+  height: 50px;
   top: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px;
-  position: fixed;
   background: rgb(26, 26, 26);
   z-index: 10;
 }
@@ -45,6 +44,8 @@
   align-items: center;
   justify-content: space-between;
   gap: 20px;
+  border: none;
+  outline: none;
 }
 .search-box .input-box {
   width: 100%;
@@ -65,7 +66,7 @@
   font-size: 15px;
   font-weight: 300;
 }
-.search-box .input-box input:focus{
+.search-box .input-box input:focus {
   outline: 2px solid rgb(8, 61, 146);
 }
 .search-box .input-box .search-icon {
@@ -73,22 +74,22 @@
   font-size: 20px;
   color: white;
   cursor: pointer;
-  background:transparent ;
+  background: transparent;
 }
-.search-box .mic{
-    border-radius: 50%;
-    width: 45px;
-    height: 40px;
-    font-size: 25px;
-    background-color: rgb(65, 64, 64);
-    color: white;
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
+.search-box .mic {
+  border-radius: 50%;
+  width: 45px;
+  height: 40px;
+  font-size: 25px;
+  background-color: rgb(65, 64, 64);
+  color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
-.mic-icon{
+.mic-icon {
   background: transparent;
 }
 /* * profile-part  */
@@ -98,9 +99,9 @@
   align-items: center;
   justify-content: end;
   padding-right: 20px;
-gap: 20px;
+  gap: 20px;
 }
-.sign-in{
+.sign-in {
   border: none;
   padding: 10px;
   height: 40px;
@@ -115,9 +116,41 @@ gap: 20px;
   border: 1px solid gray;
   cursor: pointer;
 }
-.profile .sign-in .profile-icon{
+.profile .sign-in .profile-icon {
   font-size: 25px;
-  color:rgb(49, 158, 253) ;
+  color: rgb(49, 158, 253);
   font-weight: 400;
 }
 
+@media (max-width: 640px) {
+  .sign-in {
+    display: none;
+
+  }
+  .menu-icon{
+    display: none;
+  }
+  .search-box{
+    width: 100%;
+  }
+  .search-box .input-box input {
+    padding: 0 20px;
+    font-size: 13px;
+    
+  }
+  .search-box .input-box{
+    height: 30px;
+  }
+  .search-box .input-box .search-icon{
+    width: 40px;
+    font-size: 16px;
+  }
+  .search-box .mic{
+    width: 30px;
+    height: 30px;
+
+  }
+  .mic-icon{
+    font-size: 18px;
+  }
+}

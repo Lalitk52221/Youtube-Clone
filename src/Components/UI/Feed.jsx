@@ -22,8 +22,8 @@ const Feed = () => {
 
   return (
     <div className="feed">
-      {videoData.map((video) => (
-        <Link to={`video/${video.id}`} className="video-card">
+      {videoData.map((video,key) => (
+        <Link to={`video/${video.id}`} className="video-card" key={key}>
           <img
             src={video.snippet.thumbnails.high.url}
             alt=""

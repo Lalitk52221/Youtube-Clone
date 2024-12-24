@@ -20,7 +20,6 @@ const App = ()=>{
       {/* <Menu menu={menu}/>*/}
       {/* <HomePage menu={menu}/>  */}
       </div>
-    Lalit kumar
     </div>
   )
 }

@@ -1,19 +1,25 @@
 .feed {
+  height: 89vh;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-column-gap: 10px;
-  grid-row-gap: 30px;
-  margin-top: 15px;
+  grid-column-gap: 15px;  
+  grid-row-gap: 20px;
+  overflow: hidden;
+  overflow-y: scroll;
+  /* scrollbar-width: thin; */
+  /* scrollbar-color: gray transparent; */
+  padding-right: 10px;
+
 }
 .video-card {
-  width: 280px;
+  /* width: 280px; */
   margin-bottom: 20px;
   
 }
 .video-card .thumbnail {
   width: 100%;
   height: 150px;
-  border-radius: 20px;
+  border-radius: 10px;
   object-fit: cover;
 }
 .video-card h2 {
@@ -32,4 +38,17 @@
 
 .large-container .video-card{
     width: 260px;
+}
+.feed::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+  height: 12px; /* Height of the scrollbar for horizontal scrolling */
+}
+.feed::-webkit-scrollbar-track {
+  background: transparent; /* Background of the track */
+  border-radius: 10px; /* Rounded corners for the track */
+}
+
+.feed::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners for the thumb */
 }
